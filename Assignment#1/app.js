@@ -25,31 +25,15 @@
 // 3. Write a JavaScript program that accepts five numbers in five prompts and
 // displays the larger one in the console.
 
-// let num1 = prompt("Enter the first number:");
-// let num2 = prompt("Enter the second number:");
-// let num3 = prompt("Enter the third number:");
-// let num4 = prompt("Enter the fourth number:");
-// let num5 = prompt("Enter the fifth number:");
-
-// let max = num1;
-
-// if (num2 > max) {
-//   max = num2;
+// let largeOne = 0;
+// for(let i=0; i<5; i++){
+//   let num = +prompt("Enter a number:");
+//   if (num > largeOne) {
+//     largeOne = num;
+//   }
 // }
+// console.log("The largest number is: " + largeOne);
 
-// if (num3 > max) {
-//   max = num3;
-// }
-
-// if (num4 > max) {
-//   max = num4;
-// }
-
-// if (num5 > max) {
-//   max = num5;
-// }
-
-// console.log("The largest number is: " + max);
 
 // 4. Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it
 // will check if the current number is odd or even, and display a message to the
@@ -128,14 +112,19 @@
 // * * * *
 // * * * * *
 
-// let row = '';
-// for (let i = 1; i<=5; i++){
-//     for(let j= 1; j<=i; j++){
-//         row += "* ";
+// let size = 5;
+// let pattern = '';
+
+// for (let row = 1; row <= size; row++) {
+//   for (let col = 1; col <= size; col++) {
+//     if (col <= row) {
+//       pattern += '* ';
 //     }
-//     console.log(row);
-//     row = '';
+//   }
+//   console.log(pattern);
+//   pattern = '';
 // }
+
   
 
 
