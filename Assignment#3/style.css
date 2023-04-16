@@ -1,0 +1,170 @@
+select{
+    display: block;
+    width: 300px;
+}
+.filters{
+    display: flex;
+    justify-content: space-around;
+}
+.movie{
+    display: flex;
+    margin:20px;
+   
+}
+.movieheading{
+    display: flex;
+    margin:20px;
+   
+}
+#rank{
+    width: 100px;
+}
+#content{
+    width: 600px;
+}
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header section styles */
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .filter label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .filter select {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+
+  .movieheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .movieheading h5 {
+    margin: 0;
+  }
+  
+  .movieheading #rank {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .movieheading #content {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .movieheading h5:last-child {
+    width: 70px;
+    text-align: center;
+  }
+
+  .movie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .movie p {
+    margin: 0;
+  }
+  
+  .movie #rank {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .movie #content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie .image {
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie .para p {
+    margin: 0;
+  }
+  
+  .movie .para p:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .movie #year {
+    width: 70px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+ 
+  
+
+  
